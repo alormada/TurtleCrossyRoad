@@ -23,6 +23,7 @@ class TurtlePlayer(Turtle):
 
     def go_at_start(self):
         self.goto(0, -380)
+        self.set_hitbox()
 
     def set_hitbox(self):
         """
